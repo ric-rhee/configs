@@ -1,0 +1,17 @@
+# Volume controls
+"amixer set Master toggle"
+  m:0x0 + c:121
+"amixer set Master 5%-"
+  m:0x0 + c:122
+"amixer set Master 5%+"
+  m:0x0 + c:123
+
+# Brightness controls
+"brightnessctl set 8%-"
+  XF86MonBrightnessDown
+"brightnessctl set +8%"
+  XF86MonBrightnessUp
+
+# Screenshot
+"~/somescripts/screenshot.sh"
+  Print

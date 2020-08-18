@@ -1,0 +1,3 @@
+xbindkeys
+xset r rate 230 30
+exec awesome
