@@ -73,4 +73,7 @@ nnoremap <C-l> <C-w>l
 " Nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
-" Colorizer (:h Colorizer for help)
+" Moving Lines
+xnoremap J :move '>+1<CR>gv-gv
+xnoremap K :move '<-2<CR>gv-gv
+

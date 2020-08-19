@@ -13,4 +13,3 @@ alias update=~/somescripts/update.sh
 # Misc
 alias ..='cd ..'
 alias cl='clear'
-alias scd='source ~/somescripts/getcurdir.sh'

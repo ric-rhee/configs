@@ -570,7 +570,7 @@ end)
 -- }}}
 
 -- Gaps
-beautiful.useless_gap = 5
+beautiful.useless_gap = 6
 
 -- Window border
 --client.connect_signal("focus", function(c) c.border_color = "#00b3b3" end)
