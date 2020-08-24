@@ -13,3 +13,4 @@ alias update=~/somescripts/update.sh
 # Misc
 alias ..='cd ..'
 alias cl='clear'
+alias r='ranger'

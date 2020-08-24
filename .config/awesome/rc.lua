@@ -580,5 +580,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("~/.fehbg &")
 awful.spawn.with_shell("~/.xbindkeys &")
 --awful.spawn.with_shell("kmix")
-awful.spawn.with_shell("nm-applet")
+--awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("~/.config/polybar/launch.sh")

@@ -269,7 +269,7 @@ schemes:
   One Dark: &one_dark
     # Default colors
     primary:
-      background: '0x1e2127'
+      background: '#1e2127'
       foreground: '0xabb2bf'
 
     # Normal colors
