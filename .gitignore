@@ -21,7 +21,7 @@ School
 
 !.config/alacritty
 !.config/awesome
-.config
-!.config/polybar/*
-!.config/rofi/*
+
+!.config/polybar
+!.config/rofi/config.rasi
 
