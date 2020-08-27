@@ -1,3 +1,9 @@
+!.config/alacritty
+!.config/awesome
+!.config/nvim
+!.config/polybar
+!.config/rofi
+
 AUR
 .bash_history
 .bash_logout
@@ -15,6 +21,7 @@ Pictures
 School
 .ssh
 .thumbnails
-.Xauthority
-.vscode-oss
 .tooling
+.vscode-oss
+.Xauthority
+
