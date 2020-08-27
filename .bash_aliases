@@ -14,3 +14,7 @@ alias update=~/somescripts/update.sh
 alias ..='cd ..'
 alias cl='clear'
 alias r='ranger'
+
+# Java
+alias rmclass='rm *.class'
+alias jvcv='javac -Xdiags:verbose'
