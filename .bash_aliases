@@ -13,6 +13,7 @@ alias update=~/somescripts/update.sh
 # Misc
 alias ..='cd ..'
 alias cl='clear'
+alias clr='clear && pfetch'
 alias r='ranger'
 
 # Java
