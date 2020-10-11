@@ -1,10 +1,16 @@
 # Volume controls
-"amixer set Master toggle"
-  m:0x0 + c:121
-"amixer set Master 5%-"
-  m:0x0 + c:122
-"amixer set Master 5%+"
-  m:0x0 + c:123
+#"amixer set Master toggle"
+#  m:0x0 + c:121
+#"amixer set Master 5%-"
+#  m:0x0 + c:122
+#"amixer set Master 5%+"
+#  m:0x0 + c:123
+"sh -c pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
+  XF86AudioRaiseVolume
+"sh -c pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
+  XF86AudioLowerVolume
+"pactl set-sink-mute 0 toggle"
+  XF86AudioMute
 
 # Brightness controls
 "brightnessctl set 8%-"
