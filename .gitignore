@@ -1,4 +1,6 @@
 AUR
+.asoundrc
+.asoundrc.asoundconf
 .bash_history
 .bash_logout
 .cache
@@ -6,6 +8,7 @@ AUR
 Customization
 Desktop
 Downloads
+ECE39595
 .fehbg
 Fonts
 .gnupg
@@ -21,8 +24,10 @@ School
 .vscode-oss
 .Xauthority
 
-!.config/alacritty
-!.config/awesome
-!.config/polybar
-!.config/rofi
+!~/.config/alacritty
+!~/.config/awesome
+!~/.config/polybar
+!~/.config/rofi
+!~/.config/nvim
+!~/.config/previews
 
